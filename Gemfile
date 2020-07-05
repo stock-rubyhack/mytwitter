@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#for Twitter UI components, including navbar,etc
+gem 'bootstrap-sass', '~> 3.4.1'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.2'
 # Use sqlite3 as the database for Active Record
