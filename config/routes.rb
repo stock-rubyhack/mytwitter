@@ -4,9 +4,6 @@ root 'pages#index'
 get 'home' => 'pages#home'
 get 'profile' => 'pages#profile'
 get 'explore' => 'pages#explore'
-
-
-
 #  we can remove the 'page/' so to minimize exposure of internal directory structure.
 #  get 'pages/index'
 #  get 'pages/home' => 'pages#home'

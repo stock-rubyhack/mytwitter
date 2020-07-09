@@ -8,7 +8,10 @@
 </head>
 <body>
 <%= render '/layouts/nav' %>
-<%= yield %>
+<!-- wrap around the "yield" give your rows defined in home.html.erb some nice looking margin -->
+<div class="container">
+  <%= yield %>
+</div>
 
 </body>
 </html>
