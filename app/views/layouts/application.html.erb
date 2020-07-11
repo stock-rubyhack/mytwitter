@@ -10,6 +10,8 @@
 <%= render '/layouts/nav' %>
 <!-- wrap around the "yield" give your rows defined in home.html.erb some nice looking margin -->
 <div class="container">
+  <span class="notice"><%= notice %></span>
+  <span class="alert"><%= alert %></span>
   <%= yield %>
 </div>
 

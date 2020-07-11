@@ -1,10 +1,11 @@
 source 'https://rubygems.org'
 
-#for Twitter UI components, including navbar,etc
+#for Twitter UI components, including navbar,etc[dfeng]
 gem 'bootstrap-sass', '~> 3.4.1'
-
+# adding Devise gem for authentication and user account [dfeng]
+gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.2'
+gem 'rails', '4.2.3'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.3.11'
 # Use SCSS for stylesheets
