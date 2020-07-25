@@ -15,13 +15,20 @@
         <p>stats</p>
       </div>
     </div>
-  </div>
-  <div class="col-xs-6">
     <div class="panel panel-default">
       <div class="panel-body">
-        <p>feed</p>
+        <p>trends</p>
       </div>
     </div>
+  </div>
+  <div class="col-xs-6">
+    <% for @p in @posts %>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <p><%= @p.content %></p>
+      </div>
+    </div>
+    <% end %>
   </div>
   <div class="col-xs-3">
     <div class="panel panel-default">
@@ -33,12 +40,3 @@
 </div>
 
 <!-- begin row 3 -->
-<div class="row">
-  <div class="col-xs-3 col-xs-offset-9">
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <p>trends</p>
-      </div>
-    </div>
-  </div>
-</div>

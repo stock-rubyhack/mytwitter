@@ -17,4 +17,4 @@ sqlite3 as db.
 
 * Deployment instructions
 setup from debian9... and ruby install via rbenv
-* ...
+* To start the app, we do `rails server -b 10.10.10.12`
